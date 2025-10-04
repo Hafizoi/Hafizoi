@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeuralVerse - AI Tech Blog</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #0d0d0d;
+      color: #eaeaea;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #121212, #1a1a1a);
+      color: #00ffc6;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      background: #111;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #00ffc6;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .hero {
+      text-align: center;
+    }
+
+    .hero img {
+      max-width: 100%;
+      border-radius: 15px;
+      margin-top: 20px;
+      box-shadow: 0 0 20px rgba(0,255,198,0.3);
+    }
+
+    h2 {
+      color: #00ffc6;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 15px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: #1a1a1a;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 0 15px rgba(0,255,198,0.1);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 20px rgba(0,255,198,0.3);
+    }
+
+    footer {
+      text-align: center;
+      background: #111;
+      padding: 40px 20px;
+      color: #888;
+    }
+
+    .social-icons a {
+      color: #00ffc6;
+      margin: 0 10px;
+      font-size: 1.5rem;
+    }
+
+    .social-icons a:hover {
+      color: #fff;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><i class="fa-solid fa-brain"></i> NeuralVerse</h1>
+    <p>The Future of Artificial Intelligence and Technology</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Welcome to NeuralVerse</h2>
+    <p>Exploring the frontier of AI innovation, robotics, and tech evolution. Stay updated with cutting-edge discoveries that shape tomorrow.</p>
+    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1000&q=80" alt="AI concept image">
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hey there 👋 I'm Hafiz — a curious learner and tech enthusiast who loves diving into the world of Artificial Intelligence, coding, and futuristic ideas. This blog is where I share AI news, coding tricks, and thoughts about the digital world.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3><i class="fa-solid fa-robot"></i> AI Chatbot</h3>
+        <p>An intelligent chatbot that learns user behavior and answers naturally using NLP techniques.</p>
+      </div>
+      <div class="project-card">
+        <h3><i class="fa-solid fa-microchip"></i> Smart Vision</h3>
+        <p>A machine learning project that detects objects and identifies emotions in real-time video.</p>
+      </div>
+      <div class="project-card">
+        <h3><i class="fa-solid fa-cloud"></i> Cloud AI Tools</h3>
+        <p>Exploring cloud-based AI APIs for text, image, and speech processing — making AI more accessible.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Want to collaborate or chat about tech? Reach out anytime!</p>
+    <div class="social-icons">
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#"><i class="fa-brands fa-discord"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 NeuralVerse — All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
